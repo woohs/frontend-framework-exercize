@@ -11,6 +11,7 @@ module.exports = {
   // 继承 ESLint 的规则集
   extends: ["eslint:recommended", "plugin:react/recommended"],
   rules: {
-    "no-unused-vars": "warn"
+    "no-unused-vars": "warn",
+    "react/prop-types": "off"
   }
 };

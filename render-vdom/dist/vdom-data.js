@@ -1,32 +1,34 @@
+// vdom 数据结构
+// 使用jsx + babel后不需要引用该文件
 const vdom = {
-  type: 'ul',
+  type: "ul",
   props: {
-    className: 'list'
+    className: "list"
   },
   children: [{
-    type: 'li',
+    type: "li",
     props: {
-      className: 'item',
+      className: "item",
       style: {
-        background: 'blue',
-        color: '#fff'
+        background: "blue",
+        color: "#fff"
       },
       onClick: function () {
         alert(1);
       }
     },
-    children: ['aaaa']
+    children: ["aaaa"]
   }, {
-    type: 'li',
+    type: "li",
     props: {
-      className: 'item'
+      className: "item"
     },
-    children: ['bbbbddd']
+    children: ["bbbbddd"]
   }, {
-    type: 'li',
+    type: "li",
     props: {
-      className: 'item'
+      className: "item"
     },
-    children: ['cccc']
+    children: ["cccc"]
   }]
 };
